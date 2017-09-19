@@ -201,8 +201,29 @@
     <EmbeddedResource Include="FrmQuanLyNguoiDung.resx">
       <DependentUpon>FrmQuanLyNguoiDung.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmThanhToanVienPhi.resx">
+      <DependentUpon>FrmThanhToanVienPhi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmThongTinHanhChinh.resx">
       <DependentUpon>FrmThongTinHanhChinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmThuoc.resx">
+      <DependentUpon>FrmThuoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmtimkiemgiuongbenh.resx">
+      <DependentUpon>Frmtimkiemgiuongbenh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmtimtheodichvusudung.resx">
+      <DependentUpon>Frmtimtheodichvusudung.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmtimtheodonthuoc.resx">
+      <DependentUpon>Frmtimtheodonthuoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmtimtheotenvama.resx">
+      <DependentUpon>Frmtimtheotenvama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmXuatVienChuyenVien.resx">
+      <DependentUpon>FrmXuatVienChuyenVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

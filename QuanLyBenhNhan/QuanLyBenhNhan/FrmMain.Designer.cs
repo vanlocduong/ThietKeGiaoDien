@@ -270,7 +270,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "FrmMain";
-            this.Text = "Chương Trình Quản Lý Bệnh Nhân Đại Học Quảng Nam";
+            this.Text = "Hệ Thống Quản Lý Thông Tin Bệnh Viện";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.FrmMain_Load);
             this.menuStrip1.ResumeLayout(false);
