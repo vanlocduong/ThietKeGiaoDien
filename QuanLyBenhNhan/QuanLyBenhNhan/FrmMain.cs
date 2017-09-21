@@ -177,5 +177,13 @@ namespace QuanLyBenhNhan
         {
 
         }
+
+        private void bệnhNhânToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form_BenhNhan frmBenhNhan = new Form_BenhNhan();
+            frmBenhNhan.MdiParent = this;
+            frmBenhNhan.Show();
+            
+        }
     }
 }

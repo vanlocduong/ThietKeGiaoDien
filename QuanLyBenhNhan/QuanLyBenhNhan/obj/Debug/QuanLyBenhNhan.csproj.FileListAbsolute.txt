@@ -88,3 +88,4 @@ E:\MonHoc\DesignInterface\ThietKeGiaoDien\QuanLyBenhNhan\QuanLyBenhNhan\obj\Debu
 E:\MonHoc\DesignInterface\ThietKeGiaoDien\QuanLyBenhNhan\QuanLyBenhNhan\obj\Debug\QuanLyBenhNhan.FrmDanhMucDichVu.resources
 E:\MonHoc\DesignInterface\ThietKeGiaoDien\QuanLyBenhNhan\QuanLyBenhNhan\obj\Debug\QuanLyBenhNhan.FrmDanhMucKhoa.resources
 E:\MonHoc\DesignInterface\ThietKeGiaoDien\QuanLyBenhNhan\QuanLyBenhNhan\obj\Debug\QuanLyBenhNhan.FrmDanhMucPhong.resources
+E:\MonHoc\DesignInterface\ThietKeGiaoDien\QuanLyBenhNhan\QuanLyBenhNhan\obj\Debug\QuanLyBenhNhan.Form_BenhNhan.resources
