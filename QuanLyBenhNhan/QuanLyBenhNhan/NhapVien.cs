@@ -8,14 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace QuanLyBenhNhan
+namespace quanlybenhnhan
 {
-    public partial class FrmDanhMucDichVu : Form
+    public partial class NhapVien : Form
     {
-        public FrmDanhMucDichVu()
+        public NhapVien()
         {
             InitializeComponent();
         }
-
     }
 }

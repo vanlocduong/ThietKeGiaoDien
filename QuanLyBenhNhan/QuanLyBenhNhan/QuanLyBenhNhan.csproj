@@ -9,9 +9,10 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>QuanLyBenhNhan</RootNamespace>
     <AssemblyName>QuanLyBenhNhan</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -183,6 +184,18 @@
     <EmbeddedResource Include="FrmChuyenKhoa.resx">
       <DependentUpon>FrmChuyenKhoa.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmDanhMucBacSi.resx">
+      <DependentUpon>FrmDanhMucBacSi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDanhMucDichVu.resx">
+      <DependentUpon>FrmDanhMucDichVu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDanhMucKhoa.resx">
+      <DependentUpon>FrmDanhMucKhoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDanhMucPhong.resx">
+      <DependentUpon>FrmDanhMucPhong.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmDanhMucThuoc.resx">
       <DependentUpon>FrmDanhMucThuoc.cs</DependentUpon>
     </EmbeddedResource>
@@ -233,6 +246,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
