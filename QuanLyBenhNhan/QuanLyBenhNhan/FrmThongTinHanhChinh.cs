@@ -16,5 +16,11 @@ namespace QuanLyBenhNhan
         {
             InitializeComponent();
         }
+
+        private void btnthem_Click(object sender, EventArgs e)
+        {
+            FrmBenhAnChiTiet frmBA = new FrmBenhAnChiTiet();
+            frmBA.Show();
+        }
     }
 }

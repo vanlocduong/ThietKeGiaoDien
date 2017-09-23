@@ -175,7 +175,8 @@ namespace QuanLyBenhNhan
 
         private void menuquanlynguoidung_Click(object sender, EventArgs e)
         {
-
+            FrmQuanLyNguoiDung formND = new FrmQuanLyNguoiDung();
+            formND.Show();
         }
 
         private void bệnhNhânToolStripMenuItem_Click(object sender, EventArgs e)
@@ -184,6 +185,42 @@ namespace QuanLyBenhNhan
             frmBenhNhan.MdiParent = this;
             frmBenhNhan.Show();
             
+        }
+
+        private void btnbenhan_Click(object sender, EventArgs e)
+        {
+            FrmBenhAnChiTiet formBA = new FrmBenhAnChiTiet();
+            formBA.Show();
+        }
+
+        private void btnchuyenkhoa_Click(object sender, EventArgs e)
+        {
+            FrmChuyenkhoa frmbenhan = new FrmChuyenkhoa();
+            frmbenhan.Show();
+        }
+
+        private void btndichvu_Click(object sender, EventArgs e)
+        {
+            FrmDichVuSuDungcs frmbenhan = new FrmDichVuSuDungcs();
+            frmbenhan.Show();
+        }
+
+        private void btnthuoc_Click(object sender, EventArgs e)
+        {
+            FrmThuoc frmbenhan = new FrmThuoc();
+            frmbenhan.Show();
+        }
+
+        private void btnthanhtoan_Click(object sender, EventArgs e)
+        {
+            FrmThanhToanVienPhi frmbenhan = new FrmThanhToanVienPhi();
+            frmbenhan.Show();
+        }
+
+        private void btnxuatvien_Click(object sender, EventArgs e)
+        {
+            FrmXuatVienChuyenVien frmbenhan = new FrmXuatVienChuyenVien();
+            frmbenhan.Show();
         }
     }
 }

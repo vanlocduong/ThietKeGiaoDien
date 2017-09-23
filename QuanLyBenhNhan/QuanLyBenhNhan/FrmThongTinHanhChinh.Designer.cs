@@ -284,6 +284,7 @@
             this.btnthem.TabIndex = 3;
             this.btnthem.Text = "Thêm";
             this.btnthem.UseVisualStyleBackColor = true;
+            this.btnthem.Click += new System.EventHandler(this.btnthem_Click);
             // 
             // tbnxoa
             // 

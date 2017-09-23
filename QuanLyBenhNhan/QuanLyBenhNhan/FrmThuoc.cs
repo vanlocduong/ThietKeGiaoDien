@@ -21,5 +21,15 @@ namespace QuanLyBenhNhan
         {
 
         }
+
+        private void btninport_Click(object sender, EventArgs e)
+        {
+            openFileDialog1.ShowDialog();
+        }
+
+        private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
+        {
+
+        }
     }
 }

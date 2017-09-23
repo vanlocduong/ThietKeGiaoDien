@@ -67,7 +67,7 @@
             // 
             // btnthoat
             // 
-            this.btnthoat.Location = new System.Drawing.Point(661, 446);
+            this.btnthoat.Location = new System.Drawing.Point(633, 407);
             this.btnthoat.Name = "btnthoat";
             this.btnthoat.Size = new System.Drawing.Size(87, 23);
             this.btnthoat.TabIndex = 13;
@@ -76,7 +76,7 @@
             // 
             // btnchitiet
             // 
-            this.btnchitiet.Location = new System.Drawing.Point(176, 446);
+            this.btnchitiet.Location = new System.Drawing.Point(171, 407);
             this.btnchitiet.Name = "btnchitiet";
             this.btnchitiet.Size = new System.Drawing.Size(87, 23);
             this.btnchitiet.TabIndex = 12;
@@ -85,7 +85,7 @@
             // 
             // btnthem
             // 
-            this.btnthem.Location = new System.Drawing.Point(63, 446);
+            this.btnthem.Location = new System.Drawing.Point(49, 407);
             this.btnthem.Name = "btnthem";
             this.btnthem.Size = new System.Drawing.Size(87, 23);
             this.btnthem.TabIndex = 11;
@@ -95,7 +95,7 @@
             // tabnghiepvu
             // 
             this.tabnghiepvu.Controls.Add(this.tabPage3);
-            this.tabnghiepvu.Location = new System.Drawing.Point(607, 27);
+            this.tabnghiepvu.Location = new System.Drawing.Point(615, 13);
             this.tabnghiepvu.Name = "tabnghiepvu";
             this.tabnghiepvu.SelectedIndex = 0;
             this.tabnghiepvu.Size = new System.Drawing.Size(200, 388);
@@ -180,7 +180,7 @@
             // 
             this.tabquanlybn.Controls.Add(this.tabPage1);
             this.tabquanlybn.Controls.Add(this.tabPage2);
-            this.tabquanlybn.Location = new System.Drawing.Point(5, 27);
+            this.tabquanlybn.Location = new System.Drawing.Point(12, 12);
             this.tabquanlybn.Name = "tabquanlybn";
             this.tabquanlybn.SelectedIndex = 0;
             this.tabquanlybn.Size = new System.Drawing.Size(601, 389);
@@ -336,12 +336,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(813, 497);
+            this.ClientSize = new System.Drawing.Size(817, 445);
             this.Controls.Add(this.btnthoat);
             this.Controls.Add(this.btnchitiet);
             this.Controls.Add(this.btnthem);
             this.Controls.Add(this.tabnghiepvu);
             this.Controls.Add(this.tabquanlybn);
+            this.MaximizeBox = false;
             this.Name = "Form_BenhNhan";
             this.Text = "Bệnh nhân";
             this.tabnghiepvu.ResumeLayout(false);
